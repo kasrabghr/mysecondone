@@ -5,7 +5,7 @@ def hash_password_hack(input_file_name, output_file_name):
     with open(input_file_name,mode="r") as input:
         
         text=csv.reader(input)
-        names_hash=dict()
+        ns_hash=dict()
         hash_pass=dict()
         names_pass=dict()
         
